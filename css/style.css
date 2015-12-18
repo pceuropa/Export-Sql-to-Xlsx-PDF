@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.info, .success, .error { width: 90%; border: 1px solid; margin: 10px AUTO; padding:15px 10px 15px 50px; background-repeat: no-repeat; background-position: 10px center; }
+.info { color: #00529B; text-align: left; background-color: #BDE5F8; background-image: url('../images/info.png'); }
+.success { color: #4F8A10; text-align: left; background-color: #DFF2BF; background-image:url('../images/success.png'); }
+.error { color: #D8000C; text-align: left; background-color: #FFBABA; background-image: url('../images/error.png'); }
+
+.fancytitle { width: 95%; font-weight: bold; font-size: 22px; text-align: left; }
+.fancybox-div { text-align: center;display: none; width: 700px; }
+.checkboxes { width: 150px; margin: 0 AUTO; text-align: left; }
+
+input[type="text"], input[type="password"], select, textarea { width:300px; height: 22px; line-height: 22px; font-family: arial, sans-serif; font-size: 1em; 
+color: #333; background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; }
+input[type="submit"], input[type="button"] { cursor:pointer; height: 30px; color: white; background: #4d90fe; border: 1px solid #3079ED; 
+-moz-border-radius: 2px; -webkit-border-radius: 2px; }
+input[type="submit"]:hover, input[type="button"]:hover { background: #357AE8; border: 1px solid #2F5BB7; }
